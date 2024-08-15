@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+           hr {
+            border: none;
+            height: 1px;
+            width: 73%;
+            background-color: #333; /* Line color */
+            margin: 15px auto; /* Spacing around the line and placing it in center */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: #009d49;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color:#009d49;
+        }
+
+        .form-group {
+            margin-bottom: 1em;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-group textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #009d49;
+            border: none;
+            color: white;
+            padding: 0.75em 1.5em;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #007a3d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <p style="font-family:'Times New Roman ';">- +91xxxxxxxxxx</p>
+        <p style="font-family: 'Times New Roman', Times, serif;">- xyz@gmail.com</p>
+        <hr>
+        <h2>Share your review !!</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+
+    </main>
+</body>
+</html>

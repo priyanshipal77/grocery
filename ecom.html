@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="ecom.css">
+</head>
+<body>
+    <header>
+        <h1>Green Basket</h1>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <!-- products will be added here-->
+            <div class="product" data-id="1">
+                <h3>Milk</h3>
+                <p>₹35</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <h3>Apple(6)</h3>
+                <p>₹80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <h3>Banana(12pcs)</h3>
+                <p>₹100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="4">
+                <h3>Cauliflower</h3>
+                <p>₹40</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="5">
+                <h3>Lentils</h3>
+                <p>₹60</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="6">
+                <h3>Rice</h3>
+                <p>₹95</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="7">
+                <h3>Unclechips</h3>
+                <p>₹20</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="8">
+                <h3>Maggi</h3>
+                <p>₹15</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="9">
+                <h3>coldrink</h3>
+                <p>₹40</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="10">
+                <h3>Salt(75g)</h3>
+                <p>₹35</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="cart">
+            <img src="C:\Users\Priyanshi\Downloads\shopp(1)(1).jpg" alt="Shopping Cart" class="cart-image">
+            <a href="#cart" style="color: black; text-decoration: none;"> 
+                (<span id="cart-count">0</span>)
+            </a>
+            <ul id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="ecom.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Basket - Welcome</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://shorturl.at/Me1SW') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            position: relative; /* Position relative to allow absolute positioning of header buttons */
+        }
+
+        .intro-container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 2em;
+            border-radius: 10px;
+            max-width: 90%;
+            margin-bottom: 2em;
+        }
+
+        .intro-content h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        .intro-content p {
+            font-size: 1.5em;
+            margin-bottom: 2em;
+        }
+
+        .start-button {
+            display: inline-block;
+            padding: 0.75em 1.5em;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .start-button:hover {
+            background-color: #218838;
+        }
+
+        .header-buttons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .header-buttons a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: underline;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .header-buttons a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-buttons">
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a href="customer-care.html">Customer Care</a>
+    </div>
+    <div class="intro-container">
+        <div class="intro-content">
+            <h1>Welcome to Green Basket</h1>
+            <p>Your favorite online grocery store.</p>
+            <a href="ecom.html" class="start-button">Start Shopping</a>
+        </div>
+    </div>
+</body>
+</html>
